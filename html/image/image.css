@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 900px;
+    margin: 10px auto;
+}
+main img {
+    width: 100%;
+}

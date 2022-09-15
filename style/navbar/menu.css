@@ -1,0 +1,51 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background: #00ffff;
+    padding: 10px 5%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logo {
+    flex: 30%;
+    margin-right: 10px;
+}
+
+.menu {
+    flex: 60%;
+    display: flex;
+    flex-basis: content;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.links {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.login {
+    margin-left: 30px;
+}
+
+.header .menu .burguer {display: none;}
+
+.links ul li a:hover {
+    background: #00BFBF;
+    color: #004040;
+    font-size: 18px;
+    border: 1px solid #0000008e;
+    border-radius: 2px;
+}

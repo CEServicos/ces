@@ -1,0 +1,25 @@
+footer {
+    /* height: 100px; */
+    padding-top: 22px;
+    background: #00E6E6;
+    text-align: center;
+}
+
+#whats {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.email a{
+    font-style: italic;
+}
+.email a:hover {
+    background: #00BFBF;
+    color: #004040;
+    text-decoration: underline;
+}
+
+.email {
+    padding: 10px;
+}

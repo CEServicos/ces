@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px){
+    .header, .logo, .menu, .header>.menu>.burguer{
+        display: block;
+    }
+    .header{
+        position: static;
+        padding: 0;
+    }
+    
+    .logo {
+        margin: auto;
+        text-align: center;
+    }
+    .logo img {
+        padding-top: 10px;
+        width: 240px;
+    }
+
+    .menu  {
+        text-align: center;
+    }
+    .header>.menu>.burguer {
+        width: 100%;
+        background: #00E6E6;
+        margin: 5px 0;
+    }
+    .header>.menu>.links{
+        display: none;
+        padding: 0px;
+    }
+    .header>.menu>.links>ul>li{
+        width: 100%;
+    }
+    .header>.menu>.links>ul>li>a {
+        display: block;
+        padding: 10px;
+    }
+    .login{
+        margin: 0;
+    }
+    .header .menu .burguer:hover {
+        cursor: pointer;
+        background: #00BFBF;
+        border: 1px solid #0000008e;
+        border-radius: 2px;
+    }
+}
