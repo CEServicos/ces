@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,4 +73,25 @@ a {
     display: none;
     width: 100%;
     height: 300px;
+}
+
+.top{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    display: none;
+    height: 30px;
+    width: 40px;
+    padding-top: 5px;
+    text-align: center;
+    background: #0145ff;
+    border-radius: 2px;
+}
+.top a{
+    color: #fff;
+}
+
+.top:hover, .top a:hover {
+    background: #03c4c4;
+    color: black;
 }

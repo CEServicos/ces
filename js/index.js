@@ -10,20 +10,6 @@ document.getElementById("burguerId").addEventListener("click", function() {
     }
 })
 
-window.addEventListener('scroll', function(){
-    let scroll = document.querySelector('.topo');
-    scroll.classList.toggle('active', window.scrollY > 600);
-})
-
-function mudaTamanho(){
-    if(window.innerWidth >= 600){
-        document.querySelector(".links").display = "block";
-    }
-    else
-        document.querySelector(".links").display = "none";
-
-}
-
 document.getElementById("mao").onclick = () => {
     let frame = document.getElementById("imageFrame");
     let btn = document.getElementById("mao")
@@ -34,5 +20,26 @@ document.getElementById("mao").onclick = () => {
     else{
         frame.style.display = "none";
         btn.innerHTML = "Imagens Aqui&#128071;"
+    }
+}
+
+document.body.onresize = () => {
+    let menu = document.querySelector("#links");
+    if(window.innerWidth >= 610){
+        menu.style.display = "block";
+    }
+    else{
+        menu.style.display = "none";
+    }
+}
+
+window.onscroll = () => {
+    let top = document.getElementById("top");
+
+    if(document.documentElement.scrollTop >= 100){
+        top.style.display = "block";
+    }
+    else{
+        top.style.display = "none";
     }
 }
