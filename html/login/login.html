@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../img/pagina/icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../style/main/style.css">
+    <link rel="stylesheet" href="../../style/navbar/menu.css">
+    <link rel="stylesheet" href="../../style/footer/footer.css">
+    <link rel="stylesheet" href="../../style/responsivo/responsivo.css">
+
+    <link rel="stylesheet" href="../style/logCad.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../../img/pagina/logo/logoNew.png" alt="Image de Logo" width="200"> <br> <br>
+            <p>A nossa empresa situa-se na cidade da <address><a href="https://pt.wikipedia.org/wiki/Beira_(Mo%C3%A7ambique)" target="_blank"  id="endereco">beira-moçambique</a></address></p>
+            <br>
+        </div>
+        <nav class="menu">
+            <div class="burguer" id="burguerId">
+                <img src="../../img/pagina/menu/menu.png" alt="" width="40">
+            </div>
+            <menu class="links" id="links">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Artigos</a></li>
+                    <li class="login"><a href="#">Login</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+
+    <main class="corpo">
+        <form id="cadastro">
+            <fieldset class="campo">
+                <legend>Login</legend>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" required>
+                </div>
+                <div>
+                    <input type="submit" value="Login" id="submeter">
+                    <button class="btnLogin"><a href="../cadastro/cadastro.html">Novo</a></button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    
+    <script src="./login.js"></script>
+    <script src="../../js/index.js"></script>
+</body>
+</html>

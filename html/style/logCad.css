@@ -1,0 +1,50 @@
+.campo {
+    padding: 10px;
+    width: 480px;
+    margin: auto;
+}
+.campo legend{font-size: 27px;}
+.campo div{margin-bottom: 10px;}
+
+.campo div label {
+    display: inline-block;
+    width: 65px;
+    font-size: 24px;
+}
+
+.campo div input{
+    width: 360px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.campo div #submeter, .campo div .btnLogin{
+    display: inline-block;
+    color: black;
+    background: cyan;
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0 0;
+}
+
+.campo div #submeter:hover, .campo div .btnLogin:hover{
+    background: #007777;
+}
+
+.btnLogin a {color: black;}
+
+@media screen and (max-width:600px) {
+    .campo {width: 100%;}
+    .campo div label, .campo div input{
+        display: block;
+        width: 97%;
+        padding: 0 10px;
+        margin-right: 10px;
+    }
+
+    .campo div #submeter{margin-left: 10px;}
+}
