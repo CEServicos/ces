@@ -41,7 +41,7 @@ a {
     font-variant: small-caps;
 }
 .corpo h1::first-letter, span#ces{
-    font-size: 90px;
+    font-size: 60px;
 }
 
 .corpo h3 {
